@@ -40,31 +40,26 @@ const ExperienceCard = (props: Props) => {
         <p className="uppercase py-5 text-gray-300 ">
           Started Work ..... Ended Work ....
         </p>
-        <ul className="list-disc space-y-4 ml-5 text-lg max-h-96 overflow-scroll m-0 p-0">
+        <ul className="list-disc space-y-4 text-lg max-h-96 overflow-scroll m-0 p-0">
           <li>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In officiis
             labore ea quidem harum nemo eveniet eaque saepe aliquam voluptate
-            eligendi, amet perferendis dignissimos.
           </li>
           <li>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In officiis
             labore ea quidem harum nemo eveniet eaque saepe aliquam voluptate
-            eligendi, amet perferendis dignissimos.
           </li>
           <li>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In officiis
             labore ea quidem harum nemo eveniet eaque saepe aliquam voluptate
-            eligendi, amet perferendis dignissimos.
           </li>
           <li>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In officiis
             labore ea quidem harum nemo eveniet eaque saepe aliquam voluptate
-            eligendi, amet perferendis dignissimos.
           </li>
           <li>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In officiis
             labore ea quidem harum nemo eveniet eaque saepe aliquam voluptate
-            eligendi, amet perferendis dignissimos.
           </li>
         </ul>
       </div>
