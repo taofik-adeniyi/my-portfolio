@@ -15,21 +15,11 @@ const Skills = (props: Props) => {
     >
       <h3 className="title">Skills</h3>
 
-      <h3 className="absolute tracking-[3px] text-gray-500 text-sm top-36 ">
+      <h3 className="absolute tracking-[3px] text-gray-500 text-sm top-36">
         Hover over a skill for current proficiency
       </h3>
 
-      <div className="grid grid-cols-4 gap-5">
-        {/* <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1> */}
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        {/* <Skill />
+      <div className="grid grid-cols-4 gap-5 pt-32 overflow-hidden">
         <Skill />
         <Skill />
         <Skill />
@@ -37,7 +27,12 @@ const Skills = (props: Props) => {
         <Skill />
         <Skill />
         <Skill />
-        <Skill /> */}
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
       </div>
     </motion.div>
   );

@@ -5,7 +5,7 @@ type Props = {};
 
 const ExperienceCard = (props: Props) => {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer border border-opacity-20 border-gray-200 transition-opacity duration-200 overflow-hidden">
       <motion.img
         initial={{ y: -100, opacity: 0 }}
         transition={{ duration: 1.2 }}
@@ -19,7 +19,7 @@ const ExperienceCard = (props: Props) => {
       <div className="px-0 md:px-10">
         <h4 className="text-4xl font-light">Job Title: CEO OF TAOFIK ENT</h4>
         <p className="text-2xl font-bold mt-1">TAOFIK ENT</p>
-        <div className="flex space-x-2 my-2">
+        <div className="flex space-x-4 my-2">
           <img
             src="https://www.vhv.rs/dpng/d/456-4562295_library-of-javascript-icon-graphic-freeuse-png-files.png"
             className="h-10 w-10 rounded-full"
@@ -40,7 +40,7 @@ const ExperienceCard = (props: Props) => {
         <p className="uppercase py-5 text-gray-300 ">
           Started Work ..... Ended Work ....
         </p>
-        <ul className="list-disc space-y-4 text-lg max-h-96 overflow-scroll m-0 p-0">
+        <ul className="list-disc space-y-4 text-lg m-0 p-0">
           <li>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In officiis
             labore ea quidem harum nemo eveniet eaque saepe aliquam voluptate
